@@ -3,8 +3,8 @@ import { Accordion, Span, Box } from "@chakra-ui/react";
 export default function FAQs(){
   return (
     <Box
-      px={{ base: 4, md: 8, lg: 16 }}
-      py={{ base: 8, md: 12, lg: 20 }}
+      px={{ base: 4, md: 8 }}
+      py={{ base: 8, md: 12 }}
       maxW="6xl"
       mx="auto"
     >
