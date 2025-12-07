@@ -68,8 +68,9 @@ export default function Home() {
     <>
       <Box
         position="relative"
-        h={{ base: "90vh", md: "100vh" }}
+        h={{ base: "40vh", md: "100vh" }}
         overflow="hidden"
+        p={4}
       >
         <Image
           src="/pic-1.jpg"
@@ -96,22 +97,22 @@ export default function Home() {
 
         <Flex
           direction="column"
-          align={{ base: "center", md: "flex-start" }}
+          align="flex-start" 
           justify="center"
           h="100%"
           position="relative"
           zIndex={2}
           color="white"
-          textAlign={{ base: "center", md: "left" }}
+          textAlign= "left"
           px={{ base: 2, md: 12 }}
         >
           <Heading
             textStyle="h1"
             className="typewriter"
-            maxW={{ base: "95%", md: "5xl" }}
-            fontSize={{ base: "2xl", sm: "3xl", md: "5xl" }}
+            maxW={{ base: "90%", md: "5xl" }}
+            fontSize={{ base: "5xl", sm: "4xl", md: "5xl" }}
             lineHeight={{ base: "1.2em", md: "1.3em" }}
-            mb={4}
+            mb={9}
           >
             From Admin Chaos to Clarity.{" "}
             <Text as="span" color="brand.400">
@@ -122,8 +123,8 @@ export default function Home() {
           <Text
             fontFamily="Poppins, sans-serif"
             color="neutral.white"
-            fontSize={{ base: "sm", sm: "md", md: "20px" }}
-            mt={3}
+            fontSize={{ base: "16px", sm: "md", md: "20px" }}
+            mb={7}
             maxW={{ base: "95%", md: "4xl" }}
             lineHeight={{ base: "1.4em", md: "37px" }}
           >
@@ -149,7 +150,7 @@ export default function Home() {
             mt={6}
             wrap="wrap"
             spacing={4}
-            justify={{ base: "center", md: "flex-start" }}
+            justify= "flex-start" 
           >
             <Button
               bg="brand.300"
