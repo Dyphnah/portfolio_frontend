@@ -32,7 +32,7 @@ export default function FAQs(){
               <Accordion.ItemBody
                 px={{ base: 2, md: 4 }}
                 pb={{ base: 4, md: 6 }}
-                fontSize={{ base: "sm", md: "md" }}
+                fontSize={{ base: "sm", md: "16px" }}
                 color="gray.700"
               >
                 {item.text}
