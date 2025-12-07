@@ -434,6 +434,7 @@ export default function Home() {
         <Box>
           <Heading
             textStyle="h2"
+            p={2}
             fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
           >
             What You Can Expect When Working With Me.
