@@ -487,7 +487,7 @@ export default function Home() {
 
           <Box
             bg="brand.300"
-            p={{ base: 6, md: 10, lg: 20 }}
+            p={{ base: 6, md: 10, lg: 12 }}
             borderRadius="md"
             ml={{ base: 0, md: 6 }}
             mt={{ base: 6, md: 0 }}
@@ -510,7 +510,7 @@ export default function Home() {
 
           <Box
             bg="brand.200"
-            p={{ base: 6, md: 10, lg: 20 }}
+            p={{ base: 6, md: 10, lg: 12 }}
             borderRadius="md"
             ml={{ base: 0, md: 6 }}
             mt={{ base: 6, md: 0 }}
@@ -533,7 +533,7 @@ export default function Home() {
 
           <Box
             bg="brand.400"
-            p={{ base: 6, md: 10, lg: 20 }}
+            p={{ base: 6, md: 10, lg: 12 }}
             borderRadius="md"
             ml={{ base: 0, md: 6 }}
             mt={{ base: 6, md: 0 }}
