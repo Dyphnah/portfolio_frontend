@@ -442,7 +442,7 @@ export default function Home() {
         </Box>
       </Flex>
 
-      <Box mx={{ base: 4, md: 12, lg: 32 }} mb={16}>
+      <Box mx={{ base: 4, md: 12, lg: 20 }} mb={16}>
         <SimpleGrid
           columns={{ base: 1, md: 3 }}
           spacing={{ base: 6, md: 8, lg: 10 }}
