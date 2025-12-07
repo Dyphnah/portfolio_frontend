@@ -114,7 +114,7 @@ export default function Home() {
             lineHeight={{ base: "1.2em", md: "1.3em" }}
             mb={9}
           >
-            From Admin Chaos to Clarity.{" "}
+            From Chaos to Clarity.{" "}
             <Text as="span" color="brand.400">
               Scale Without Distractions.
             </Text>
