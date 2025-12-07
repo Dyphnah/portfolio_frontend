@@ -44,7 +44,7 @@ const AboutMe = () => {
             <Text
               textStyle="body"
               mb={6}
-              lineHeight={{ base: "lg", md: "base", lg: "tall" }}
+              lineHeight={{ base: "16px", md: "base", lg: "tall" }}
             >
               Hi, I’m Dyphnah, a tech‑savvy virtual assistant and brand‑driven
               web developer. I empower entrepreneurs, executives, coaches, and

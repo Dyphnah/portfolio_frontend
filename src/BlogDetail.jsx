@@ -19,7 +19,7 @@ const BlogDetail = () => {
 
   useEffect(() => {
     axios
-      .get(`http://127.0.0.1:8000/api/blog/${slug}/`)
+      .get(`https://mywebsite-khi1.onrender.com/api/blog/${slug}/`)
       .then((res) => setBlog(res.data))
       .catch(() => setError("Blog not found."))
       .finally(() => setLoading(false));
