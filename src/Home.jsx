@@ -103,7 +103,7 @@ export default function Home() {
           zIndex={2}
           color="white"
           textAlign={{ base: "center", md: "left" }}
-          px={{ base: 4, md: 12 }}
+          px={{ base: 2, md: 12 }}
         >
           <Heading
             textStyle="h1"
