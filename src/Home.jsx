@@ -110,7 +110,7 @@ export default function Home() {
             textStyle="h1"
             className="typewriter"
             maxW={{ base: "90%", md: "5xl" }}
-            fontSize={{ base: "5xl", sm: "4xl", md: "5xl" }}
+            fontSize={{ base: "2xl", sm: "4xl", md: "5xl" }}
             lineHeight={{ base: "1.2em", md: "1.3em" }}
             mb={9}
           >
