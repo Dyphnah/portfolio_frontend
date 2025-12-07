@@ -68,7 +68,7 @@ export default function Home() {
     <>
       <Box
         position="relative"
-        h={{ base: "40vh", md: "100vh" }}
+        h={{ base: "70vh", md: "100vh" }}
         overflow="hidden"
         p={4}
       >
