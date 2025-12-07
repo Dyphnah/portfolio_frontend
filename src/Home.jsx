@@ -583,7 +583,7 @@ export default function Home() {
         </SimpleGrid>
       </Box>
 
-      <Box px={{ base: 4, md: 8, lg: 16 }}>
+      <Box px={{ base: 4, md: 8, lg: 10 }}>
         <Heading size="lg" mb={8} textAlign="center" textStyle="h3">
           Don't take my word for it! Hear from my clients.
         </Heading>
