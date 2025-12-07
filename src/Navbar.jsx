@@ -15,7 +15,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { to: "/", label: "HOME" },
+    // { to: "/", label: "HOME" },
     { to: "/about", label: "GET TO KNOW ME" },
     { to: "/portfolio", label: "PORTFOLIO" },
     { to: "/blog", label: "BLOG" },
@@ -42,7 +42,7 @@ const Navbar = () => {
               color="brand.300"
               fontSize="lg"
             >
-              DYPHNAH
+              HOME
             </Text>
           </RouterLink>
         </Box>

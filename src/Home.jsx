@@ -97,13 +97,13 @@ export default function Home() {
 
         <Flex
           direction="column"
-          align="flex-start" 
+          align="flex-start"
           justify="center"
           h="100%"
           position="relative"
           zIndex={2}
           color="white"
-          textAlign= "left"
+          textAlign="left"
           px={{ base: 2, md: 12 }}
         >
           <Heading
@@ -114,9 +114,10 @@ export default function Home() {
             lineHeight={{ base: "1.2em", md: "1.3em" }}
             mb={9}
           >
-            From Chaos to Clarity.{" "}
+            From Chaos to Clarity.
+            <br />{" "}
             <Text as="span" color="brand.400">
-              Scale Without Distractions.
+              Scale without Distractions.
             </Text>
           </Heading>
 
@@ -129,7 +130,7 @@ export default function Home() {
             lineHeight={{ base: "1.4em", md: "37px" }}
           >
             I help CEOs and scaling businesses eliminate admin bottlenecks and
-            reclaim 10–30 hours a week so they can close more deals, lead their
+            reclaim 10–30 hours a week so you can close more deals, lead their
             teams, and grow revenue without drowning in operations.
           </Text>
           {/*           <Text
@@ -146,12 +147,7 @@ export default function Home() {
             high-impact decisions.
           </Text> */}
 
-          <HStack
-            mt={6}
-            wrap="wrap"
-            spacing={4}
-            justify= "flex-start" 
-          >
+          <HStack mt={6} wrap="wrap" spacing={4} justify="flex-start">
             <Button
               bg="brand.300"
               px={{ base: 6, md: 12 }}
